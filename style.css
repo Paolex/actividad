@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(103, 255, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    background-color: brown;
+}
+
+/* Manipulando layouts con GRID*/
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.yesterdayNews{
+    background-color: rgb(238, 255, 0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.yesterdayNewItem{
+    background-color: rgb(129, 238, 66);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+.todayNews{
+    background-color: rgb(98, 98, 250);
+    height: 20vh;
+    padding: 10px;
+    display: grid;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 10px;
+    grid-template-columns: 80% 20%;
+}
+
+.descriptionTodayNews{
+    font-size: 18px;
+}
+
+.imageLogo{
+    width:30%;
+    height:20% ;
+    border-radius: 10px;
+}
+
+.imageUser{
+    width:80%;
+    height:80% ;
+    border-radius: 10px;
+}
+
+.moreNews{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.moreNewItems{
+    background-color: rgb(181, 88, 0);
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 16px;
+}
+
+.adsItem{
+    background-color: rgb(209, 58, 255);
+    padding: 6px;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+input{
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+}
